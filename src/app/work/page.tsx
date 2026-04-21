@@ -2,6 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "Work",
+  description:
+    "Examples of SaaS UI and web applications built with Next.js and React by CN Software.",
+};
 
 const projects = [
   {
@@ -151,6 +158,15 @@ export default function WorkPage() {
                       className="inline-block text-sm font-medium text-primary hover:underline"
                     >
                       View Project →
+                    </Link>
+                  </div>
+
+                  <div className="mt-2">
+                    <Link
+                      href="/work/tc-wales/"
+                      className="inline-block text-sm font-medium text-primary hover:underline"
+                    >
+                      Read case study →
                     </Link>
                   </div>
                 </div>

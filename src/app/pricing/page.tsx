@@ -3,6 +3,12 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "Pricing",
+  description: "Pricing of available services offered by CN Software.",
+};
 
 const included = [
   "Clear scope & timeline agreed upfront",

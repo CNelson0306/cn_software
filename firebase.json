@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      { "source": "/work", "destination": "/work/", "type": 301 },
+      { "source": "/pricing", "destination": "/pricing/", "type": 301 },
+      { "source": "/contact", "destination": "/contact/", "type": 301 }
+    ]
+  }
+}
